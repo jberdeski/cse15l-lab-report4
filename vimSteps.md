@@ -45,15 +45,51 @@ To run the tests I used:
 `bash test.sh` 
 since it was in the directory when I used `ls`.
 
+![Running Failed Tests](3.testFail.png)
 
 
+**Step 4**
+Fixing the Error through `vim`:
+
+The first thing I did was run:
 `vim LabExamples.java`
-1) /index1
-2) press n 10 times to reach the last index1
-3) right 5 times
+This allowed me to look into the file that had the error.
+> In this example I know what and where the error is and how to fix it so these steps will be very specific to this example
+
+*The Steps:*
+
+1) /index1 <enter>
+  
+  > This searches up the term after the / 
+  
+2) n n n n n n n n n n
+  
+  > I moved to the **n**ext term that matches the search till I reached the last one
+  
+3) <right><right><right><right><right>
+  
+  > moved over to the error in the line (where it said index1 instead of 2)
+  > my cursor was directly over the 1
+  
 4) x
+  
+  > deletes what is directly below my cursor (in other words, what the cursor is on)
+  
 5) i
+  
+  >puts me into insert mode
+  
 6) 2
+  
+  > inserts 2 
+  
 7) esc
+  
+  >takes me out of insert mode and back to normal mode
+  
 8) :wq
-9) 
+  
+  > saves and quits `vim`
+  
+  ![Fixed code](4.fixedCode.png)
+
