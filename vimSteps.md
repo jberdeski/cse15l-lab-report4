@@ -58,36 +58,36 @@ This allowed me to look into the file that had the error.
 
 *The Steps:*
 
-1) /index1 <enter>
+1) ` */index1 <enter>* `
   
   > This searches up the term after the / 
   
-2) n n n n n n n n n n
+2) ` *n n n n n n n n n n* `
   
   > I moved to the **n**ext term that matches the search till I reached the last one
   
-3) <right><right><right><right><right>
+3) ` *<right><right><right><right><right>* `
   
   > moved over to the error in the line (where it said index1 instead of 2)
   > my cursor was directly over the 1
   
-4) x
+4) ` *x* `
   
   > deletes what is directly below my cursor (in other words, what the cursor is on)
   
-5) i
+5) ` *i* `
   
   >puts me into insert mode
   
-6) 2
+6) ` *2* `
   
   > inserts 2 
   
-7) esc
+7) ` *<esc>* `
   
   >takes me out of insert mode and back to normal mode
   
-8) :wq
+8) ` *:wq* `
   
   > saves and quits `vim`
   
