@@ -24,7 +24,7 @@ so all I have to do is use:
 
 
 ## Step 2
-**The next step is to clone your fork of the repository from your Github account:**
+**Clone your Fork of the Repository from your Github Account:**
 
 In order to do this we will use the command:
 `git clone ___________`
@@ -35,7 +35,7 @@ In order to do this we will use the command:
 
 
 ## Step 3
-**Running the tests (they should fail right now):**
+**Running the Tests (they should fail right now):**
 
 First I wanted to make sure I was in the right directory so I did:
 `cd lab7/`
@@ -49,7 +49,7 @@ since it was in the directory when I used `ls`.
 
 
 ## Step 4
-**Fixing the Error through `vim`:**
+**Fixing the Error Through `vim`:**
 
 The first thing I did was run:
 `vim LabExamples.java`
@@ -92,4 +92,26 @@ This allowed me to look into the file that had the error.
   > saves and quits `vim`
   
   ![Fixed code](4.fixCode.png)
-
+  
+## Step 5
+**Testing the Fixed Code**
+  
+Following the same steps as before to test the code:
+`bash test.sh`
+We can see that the tests now pass.
+  
+![Passing Tests](5.testPass.png)
+  
+## Step 6 
+** The Final Step: Commiting and Psuhing Changes**
+  
+There are 3 commands to this step:
+`git add LabExamples.java`
+  > tells git which file you are going to be pushing to the main account
+  
+`git commit -m "_____"`
+  >fill ____ with a comment about what this commit was
+  >saves what was changed
+  
+`git push origin main`
+  >pushes the file specified above to the main account
