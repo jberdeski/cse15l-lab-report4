@@ -9,8 +9,8 @@
 
 Our task is to download and clone code that has an error in it and use vim to fix that error.
 
-## **Step 1**
-Logging in to ieng6:
+## Step 1
+**Logging in to ieng6:**
 
 If you have seen my other pages you will find a tutorial on [how to log in to a remote account](https://jberdeski.github.io/cse15l-lab-report1/report-steps.html).
 However this case is slightly different as I have set it up to no longer require a password to log in,
@@ -23,8 +23,8 @@ so all I have to do is use:
 ![Logging In](1.Login.png)
 
 
-## **Step 2**
-The next step is to clone your fork of the repository from your Github account:
+## Step 2
+**The next step is to clone your fork of the repository from your Github account:**
 
 In order to do this we will use the command:
 `git clone ___________`
@@ -34,8 +34,8 @@ In order to do this we will use the command:
 ![Cloning the Repository](2.clone.png)
 
 
-## **Step 3**
-Running the tests (they should fail right now):
+## Step 3
+**Running the tests (they should fail right now):**
 
 First I wanted to make sure I was in the right directory so I did:
 `cd lab7/`
@@ -48,8 +48,8 @@ since it was in the directory when I used `ls`.
 ![Running Failed Tests](3.testFail.png)
 
 
-## **Step 4**
-Fixing the Error through `vim`:
+## Step 4
+**Fixing the Error through `vim`:**
 
 The first thing I did was run:
 `vim LabExamples.java`
