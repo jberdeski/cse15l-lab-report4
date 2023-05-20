@@ -3,13 +3,13 @@
 `vim` is a a free and open-source, screen-based text editor program.
 > definition from wikipedia.com
 
-## Demo Use of Vim
+# Demo Use of Vim
 
 **_What is our task?_**
 
 Our task is to download and clone code that has an error in it and use vim to fix that error.
 
-**Step 1**
+## **Step 1**
 Logging in to ieng6:
 
 If you have seen my other pages you will find a tutorial on [how to log in to a remote account](https://jberdeski.github.io/cse15l-lab-report1/report-steps.html).
@@ -23,7 +23,7 @@ so all I have to do is use:
 ![Logging In](1.Login.png)
 
 
-**Step 2**
+## **Step 2**
 The next step is to clone your fork of the repository from your Github account:
 
 In order to do this we will use the command:
@@ -34,7 +34,7 @@ In order to do this we will use the command:
 ![Cloning the Repository](2.clone.png)
 
 
-**Step 3**
+## **Step 3**
 Running the tests (they should fail right now):
 
 First I wanted to make sure I was in the right directory so I did:
@@ -48,7 +48,7 @@ since it was in the directory when I used `ls`.
 ![Running Failed Tests](3.testFail.png)
 
 
-**Step 4**
+## **Step 4**
 Fixing the Error through `vim`:
 
 The first thing I did was run:
@@ -91,5 +91,5 @@ This allowed me to look into the file that had the error.
   
   > saves and quits `vim`
   
-  ![Fixed code](4.fixedCode.png)
+  ![Fixed code](4.fixCode.png)
 
