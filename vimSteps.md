@@ -117,4 +117,4 @@ There are 3 commands to this step:
   >pushes the file specified above to the main account
 
 
-![Commmit and Push](6commitAndPush.png)
+![Commmit and Push](6.commitAndPush.png)
