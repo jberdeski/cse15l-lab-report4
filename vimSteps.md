@@ -115,3 +115,6 @@ There are 3 commands to this step:
   
 `git push origin main`
   >pushes the file specified above to the main account
+
+
+![Commmit and Push](6commitAndPush.png)
