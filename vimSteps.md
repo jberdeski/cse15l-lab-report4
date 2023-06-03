@@ -45,7 +45,7 @@ To run the tests I used:
 `bash test.sh` 
 since it was in the directory when I used `ls`.
 
-![Running Failed Tests](3.testFail.png)
+![Running Failed Tests]()
 
 
 ## Step 4
