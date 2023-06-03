@@ -70,6 +70,8 @@ This allowed me to look into the file that had the error.
   
   > moved over to the error in the line (where it said index1 instead of 2)
   > my cursor was directly over the 1
+  > *note that right can be executed by pressing the right arrow key or l*
+ 
   
 4) ` *x* `
   
